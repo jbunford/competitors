@@ -2,7 +2,7 @@
 <!-- Radio Active icon by Icons8 -->
 <img src="https://maxcdn.icons8.com/Color/PNG/96/Industry/radio_active-96.png" title="Radio Active" width="96"> </p>
 # Competitor App
-<a href="https://githubsfdeploy.herokuapp.com?owner=meighan&repo=competitors">
+<a href="https://githubsfdeploy.herokuapp.com?owner=jbunford&repo=competitors">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
