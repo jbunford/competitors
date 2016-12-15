@@ -56,7 +56,7 @@
     <enableStreamingApi>true</enableStreamingApi>
     <fieldSets>
         <fullName>CompetitorCorpDetails</fullName>
-        <availableFields>
+        <!-- <availableFields>
             <field>Address__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
@@ -85,7 +85,7 @@
             <field>Year_Founded__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
-        </availableFields>
+        </availableFields> -->
         <description>Used in the visual force page reviewing the company details for the competitor</description>
         <displayedFields>
             <field>Positioning__c</field>
@@ -121,7 +121,7 @@
     </fieldSets>
     <fieldSets>
         <fullName>CompetitorSalesTips1</fullName>
-        <availableFields>
+        <!-- <availableFields>
             <field>Competitor_Advantages__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
@@ -140,7 +140,7 @@
             <field>Who_they_are_better_for__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
-        </availableFields>
+        </availableFields> -->
         <description>used in vf page</description>
         <displayedFields>
             <field>Their_Pricing__c</field>

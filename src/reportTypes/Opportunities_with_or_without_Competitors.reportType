@@ -366,12 +366,12 @@
             <field>Account.SicDesc</field>
             <table>Opportunity</table>
         </columns>
-        <columns>
+        <!-- <columns>
             <checkedByDefault>false</checkedByDefault>
             <displayNameOverride>SLA</displayNameOverride>
             <field>Account.SLA__c</field>
             <table>Opportunity</table>
-        </columns>
+        </columns> -->
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <displayNameOverride>Ticker Symbol</displayNameOverride>
