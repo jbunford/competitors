@@ -242,12 +242,12 @@
             </layoutItem>
         </relatedContentItems>
     </relatedContent>
-    <relatedLists>
+    <!-- <relatedLists>
         <fields>VERSION.TITLE</fields>
         <fields>VERSION.CREATED_DATE</fields>
         <fields>VERSION.LAST_UPDATE</fields>
         <relatedList>ContentDocumentRelatedList</relatedList>
-    </relatedLists>
+    </relatedLists> -->
     <relatedLists>
         <customButtons>Add_to_Opportunity</customButtons>
         <excludeButtons>New</excludeButtons>
