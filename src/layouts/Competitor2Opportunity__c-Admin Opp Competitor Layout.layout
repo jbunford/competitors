@@ -106,12 +106,12 @@
         <fields>Competitor_Disqualified__c</fields>
         <fields>Name</fields>
         <fields>Our_Advantages__c</fields>
-        <relatedLists>
+        <!-- <relatedLists>
             <fields>VERSION.TITLE</fields>
             <fields>VERSION.CREATED_DATE</fields>
             <fields>VERSION.LAST_UPDATE</fields>
             <relatedList>ContentDocumentRelatedList</relatedList>
-        </relatedLists>
+        </relatedLists> -->
         <relatedLists>
             <relatedList>RelatedEntityHistoryList</relatedList>
         </relatedLists>

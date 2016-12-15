@@ -209,12 +209,12 @@
         <fields>Selling_Tips__c</fields>
         <fields>Evaluation_Criteria__c</fields>
         <fields>Percent_of_Marketshare__c</fields>
-        <relatedLists>
+        <!-- <relatedLists>
             <fields>VERSION.TITLE</fields>
             <fields>VERSION.CREATED_DATE</fields>
             <fields>VERSION.LAST_UPDATE</fields>
             <relatedList>ContentDocumentRelatedList</relatedList>
-        </relatedLists>
+        </relatedLists> -->
         <relatedLists>
             <fields>NAME</fields>
             <fields>Opportunity.NAME</fields>
