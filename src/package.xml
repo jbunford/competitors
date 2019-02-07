@@ -64,10 +64,6 @@ How: A custom competitors object w/ a junction object to opps allows for multipl
         <name>CustomTab</name>
     </types>
     <types>
-        <members>Competitor_Images</members>
-        <members>Competitor_Images/CompetitorPageLayout.png</members>
-        <members>Competitor_Images/Competitors_Icon.png</members>
-        <members>Competitor_Images/Opportunity_Competitor_Page_Layout.png</members>
         <members>Image_Formula</members>
         <members>Image_Formula/Exclamation.png</members>
         <members>Image_Formula/New.png</members>
@@ -75,14 +71,6 @@ How: A custom competitors object w/ a junction object to opps allows for multipl
         <members>Image_Formula/help.png</members>
         <members>Image_Formula/wrench.png</members>
         <name>Document</name>
-    </types>
-    <types>
-        <members>Competitors</members>
-        <members>Competitors/Email_Alert_Competitor_Record_Out_of_Date</members>
-        <members>Competitors/Email_Alert_Competitor_Record_Update_Past_Due</members>
-        <members>Competitors/Internal_Request_Competitor_Update_Request</members>
-        <members>Competitors/Internal_Request_New_Competitor_Request</members>
-        <name>EmailTemplate</name>
     </types>
     <types>
         <members>Competitor2Opportunity__c.ClosedOpp</members>
@@ -97,10 +85,6 @@ How: A custom competitors object w/ a junction object to opps allows for multipl
         <members>Competitor2Opportunity__c-End User Opp Competitor Layout</members>
         <members>Competitor__c-Competitor Layout</members>
         <name>Layout</name>
-    </types>
-    <types>
-        <members>Competitors</members>
-        <name>Letterhead</name>
     </types>
     <types>
         <members>Competitor__c.All</members>
@@ -123,27 +107,6 @@ How: A custom competitors object w/ a junction object to opps allows for multipl
         <members>Competitor__c.Request_Update</members>
         <members>Opportunity.Add_Competitor</members>
         <name>WebLink</name>
-    </types>
-    <types>
-        <members>Competitor__c.Competitor_Information_Out_of_Date</members>
-        <members>Competitor__c.Competitor_Out_of_Date_x2</members>
-        <members>Competitor__c.Competitor_Update_Required_in_7</members>
-        <name>WorkflowAlert</name>
-    </types>
-    <types>
-        <members>Competitor__c.Last_Update_Today</members>
-        <members>Competitor__c.Recent_Update_Status</members>
-        <members>Competitor__c.Status_Current</members>
-        <members>Competitor__c.Status_Out_of_Date</members>
-        <name>WorkflowFieldUpdate</name>
-    </types>
-    <types>
-        <members>Competitor__c.Competitor - Updated</members>
-        <name>WorkflowRule</name>
-    </types>
-    <types>
-        <members>Competitor__c.Quarterly_Competitor_Update</members>
-        <name>WorkflowTask</name>
     </types>
     <version>34.0</version>
 </Package>
