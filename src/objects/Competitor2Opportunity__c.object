@@ -431,10 +431,10 @@ What advantages does the competition have over us?</inlineHelpText>
     </fields>
     <label>Opportunity Competitor</label>
     <nameField>
-        <displayFormat>{0}</displayFormat>
-        <label>OppCompetitor</label>
+        <label>Competitor Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
-        <type>AutoNumber</type>
+        <type>Text</type>
     </nameField>
     <pluralLabel>Opportunity Competitor</pluralLabel>
     <searchLayouts>

@@ -13,10 +13,19 @@
         <field>Our_Advantages__c</field>
         <formula>Competitor__c.Our_Advantages__c</formula>
     </fieldOverrides>
+    <fieldOverrides>
+        <field>Name</field>
+        <formula>Competitor__c.Name & " - " & Opportunity__c.Name</formula>
+    </fieldOverrides>
     <label>Add to Opp</label>
     <quickActionLayout>
         <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
         <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Name</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
                 <field>Competitor__c</field>
