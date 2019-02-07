@@ -15,7 +15,7 @@
     </fieldOverrides>
     <fieldOverrides>
         <field>Name</field>
-        <formula>Competitor__c.Name & " - " & Opportunity__c.Name</formula>
+        <formula>Competitor__c.Name</formula>
     </fieldOverrides>
     <label>Add to Opp</label>
     <quickActionLayout>
