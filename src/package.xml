@@ -5,9 +5,7 @@
 How: A custom competitors object w/ a junction object to opps allows for multiple competitors per opp.  Visual force pages give access to competitor data without leaving the page, and information is collected from users about competitors for the competitive analysis team for each opp.  Win/Loss tracking, Selling Tips, and Advantages/Disadvantages for each competitor</description>
     <types>
         <members>CompetitorDetailsPage</members>
-        <members>CompetitorNewsFromGoogle</members>
         <members>CompetitorSalesTipsPage</members>
-        <members>CompetitorTwitterFeed</members>
         <name>ApexPage</name>
     </types>
     <types>
@@ -50,8 +48,6 @@ How: A custom competitors object w/ a junction object to opps allows for multipl
         <members>Competitor__c.Type__c</members>
         <members>Competitor__c.Who_they_are_better_for__c</members>
         <members>Competitor__c.Year_Founded__c</members>
-        <members>Opportunity.Reason_Lost_Details__c</members>
-        <members>Opportunity.Reason_Lost__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -62,15 +58,6 @@ How: A custom competitors object w/ a junction object to opps allows for multipl
     <types>
         <members>Competitor__c</members>
         <name>CustomTab</name>
-    </types>
-    <types>
-        <members>Image_Formula</members>
-        <members>Image_Formula/Exclamation.png</members>
-        <members>Image_Formula/New.png</members>
-        <members>Image_Formula/Tick.png</members>
-        <members>Image_Formula/help.png</members>
-        <members>Image_Formula/wrench.png</members>
-        <name>Document</name>
     </types>
     <types>
         <members>Competitor2Opportunity__c.ClosedOpp</members>
@@ -105,7 +92,6 @@ How: A custom competitors object w/ a junction object to opps allows for multipl
         <members>Competitor__c.Add_to_Opp</members>
         <members>Competitor__c.Add_to_OppList</members>
         <members>Competitor__c.Request_Update</members>
-        <members>Opportunity.Add_Competitor</members>
         <name>WebLink</name>
     </types>
     <version>34.0</version>

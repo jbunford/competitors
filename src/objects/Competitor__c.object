@@ -264,31 +264,6 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Data_Status__c</fullName>
-        <description>The status of the data, based on the Information Status field.  To be used on views and reports</description>
-        <externalId>false</externalId>
-        <formula>IMAGE(
-CASE(Information_Status__c,
-&quot;Recently Updated&quot;,&quot;/servlet/servlet.FileDownload?file=0151a000000Aqlp&quot;,
-&quot;Current&quot;, &quot;/servlet/servlet.FileDownload?file=0151a000000Aqlu&quot;,
-&quot;Update In Progress&quot;, &quot;/servlet/servlet.FileDownload?file=0151a000000AqmE&quot;,
-&quot;Out of Date&quot;, &quot;/servlet/servlet.FileDownload?file=0151a000000Aqm4&quot;,
-&quot;/servlet/servlet.FileDownload?file=0151a000000Aqlz&quot;), &quot;Status&quot;)
-
-/*CASE(Information_Status__c,
-&quot;Recently Updated&quot;, IMAGE(&quot;/servlet/servlet.FileDownload?file=0151a000000Aqlz&quot;, &quot;New Update&quot;),
-&quot;Current&quot;, IMAGE(&quot;/servlet/servlet.FileDownload?file=0151a000000Aqlu&quot;, &quot;Current&quot;),
-&quot;Update In Progress&quot;, IMAGE(&quot;/servlet/servlet.FileDownload?file=0151a000000AqmE&quot;, &quot;Update in Progress&quot;),
-&quot;Out of Date&quot;, IMAGE(&quot;/servlet/servlet.FileDownload?file=0151a000000Aqm4&quot;, &quot;Out of Date&quot;), IMAGE(&quot;/servlet/servlet.FileDownload?file=0151a000000Aqlz&quot;, &quot;Unknown&quot;))*/</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Status</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Evaluation_Criteria__c</fullName>
         <description>This reviews the information that customers should keep in mind when evaluating their product.
 
