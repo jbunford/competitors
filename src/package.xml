@@ -31,7 +31,6 @@ How: A custom competitors object w/ a junction object to opps allows for multipl
         <members>Competitor__c.Competitor_Logo__c</members>
         <members>Competitor__c.Customer_Rating__c</members>
         <members>Competitor__c.Customers__c</members>
-        <members>Competitor__c.Data_Status__c</members>
         <members>Competitor__c.Evaluation_Criteria__c</members>
         <members>Competitor__c.Financial_Health__c</members>
         <members>Competitor__c.Information_Status__c</members>
