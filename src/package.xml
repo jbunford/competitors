@@ -55,10 +55,6 @@ How: A custom competitors object w/ a junction object to opps allows for multipl
         <name>CustomObject</name>
     </types>
     <types>
-        <members>Competitor__c</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
         <members>Competitor2Opportunity__c.ClosedOpp</members>
         <members>Competitor2Opportunity__c.CompetitorCorpDetails</members>
         <members>Competitor2Opportunity__c.CompetitorSalesTips</members>
